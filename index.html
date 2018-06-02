@@ -7,13 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     
 </head>
 <body>
-    <nav class="navbar navbar-light custom-nav">
-        <!-- Navbar content -->
-        <a class="navbar-brand" href="#">Schuyler Ankele</a>
-    </nav>
+    <nav class="navbar">
+        <div class="navbar-brand">
+          <div class="brand-left">
+            <b>Schuyler Ankele</b>
+          </div>
+        </div>
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link internal active" href="#aboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link internal" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link internal" href="#links">Links</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/shoesCodeFor"><i class="fab fa-github fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </li>  
+      </ul>
+      </nav>
+      <div id="aboutMe" class="container-fluid">
+          <div class="jumbotron">
+          <div class="display-4">About Me</div>
+          <div class="lead" id="whyMe">I love all thing programming.  From server-side JavaScript to Embedded-C projects on Arduino and NodeMCUs, I truly live for this stuff.  I'd love to bring my passion to your projects.  Let's talk!</div>
+          <div class="text-center">
+            <a href="tel:+13038983126"><button type="button" id="mobile" class="btn btn-outline-secondary btn-lg">Call Me &nbsp;<i class="fas fa-mobile fa-lg"></i></button></a>
+            
+          </div>
+        </div>  
+      </div> 
+      
+      
     <footer>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -21,7 +58,7 @@
         <script src="assets/js/main.js"></script>
     </footer>
     <nav class="navbar fixed-bottom navbar-light bg-light text-center">
-        <a class="navbar-brand mx-auto" href="#">Copyright &copy; <span id="year"></span><br>Schuyler Ankele</a>
+        <a class="mx-auto" href="#">Copyright &copy; <span id="year"></span></a>
         
     </nav>
 </body>
