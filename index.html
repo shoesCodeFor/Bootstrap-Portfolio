@@ -12,32 +12,64 @@
     
 </head>
 <body>
-    <nav class="navbar">
+      <!-- Full Size Nav -->
+      <nav class="navbar navbar-expand-md d-none d-md-flex">
         <div class="navbar-brand">
           <div class="brand-left">
             <b>Schuyler Ankele</b>
           </div>
         </div>
-        <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link internal active" href="#aboutMe">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link internal" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link internal" href="#links">Links</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/shoesCodeFor"><i class="fab fa-github fa-2x"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fab fa-linkedin fa-2x"></i></a>
-        </li>  
-      </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+            <ul class="navbar-nav my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link internal active" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link internal" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link internal" href="contact.html">Links</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/shoesCodeFor"><i class="fab fa-github fa-2x"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/schuylerhsr"><i class="fab fa-twitter fa-2x"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/in/schuyler-ankele-33905373/"><i class="fab fa-linkedin fa-2x"></i></a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+      <!-- Medium Nav -->
+      <nav class="navbar d-none d-sm-block d-block d-md-none text-center">
+          <div class="navbar-brand" id="sm-brand"><b>Schuyler Ankele</b><br> </div><br>
+          <div class="text-center" style="display: inline-block;">
+              <ul id="sm-nav" class="nav" style="">
+                  <li class="nav-item">
+                      <a class="nav-link internal active" href="#">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link internal" href="portfolio.html">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link internal" href="contact.html">Links</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://github.com/shoesCodeFor"><i class="fab fa-github fa-2x"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://twitter.com/schuylerhsr"><i class="fab fa-twitter fa-2x"></i></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/in/schuyler-ankele-33905373/"><i class="fab fa-linkedin fa-2x"></i></a>
+                  </li>
+              </ul>
+          </div>
       </nav>
       <div id="aboutMe" class="container-fluid">
         <div class="jumbotron">
@@ -48,14 +80,14 @@
                 <hr>
                 <div class="row">
                     <div class="col-12">
-                        <img class="float-left img-fluid img-thumbnail" src="https://media.licdn.com/dms/image/C4E03AQGKBJ5hutF2HQ/profile-displayphoto-shrink_200_200/0?e=1528725600&v=beta&t=-S5kyHL3U3GKXU1L4gtqBqpBRs3UvQkzOrJ8wqI8Gn0">
+                        <img id="bio-picture" class="float-left img-fluid img-thumbnail" src="https://media.licdn.com/dms/image/C4E03AQGKBJ5hutF2HQ/profile-displayphoto-shrink_200_200/0?e=1528725600&v=beta&t=-S5kyHL3U3GKXU1L4gtqBqpBRs3UvQkzOrJ8wqI8Gn0">
                         <p>
                             Hello, I'm Schuyler and I love all things related to computer programming.  Four years ago I began learning C and Java.  I began my path as a self-taught coder and quickly realized that nobody becomes better all on their own.  The landscape of modern software technology and information systems is daunting and I quickly realized I needed direction and mentorship.  It was at this time I enrolled in MSU Denver's Web Application Bachelor of Science program.
                         </p>
-                        <p>   
-                            In my early years I started working as a freelance web-devloper specializing in simple Wordpress based sites.  While these early jobs helped me support myself throughout college.  As I reached the end of my journey at MSU Denver, I started working on full web-application proof of concepts and IoT projects.  I began programming with Arduino and Raspberry Pi, deploying LEMP/LAMP stack based projects and honed my skills as an Android developer.  
+                        <p>
+                            In my early years I started working as a freelance web-devloper specializing in simple Wordpress based sites.  While these early jobs helped me support myself throughout college.  As I reached the end of my journey at MSU Denver, I started working on full web-application proof of concepts and IoT projects.  I began programming with Arduino and Raspberry Pi, deploying LEMP/LAMP stack based projects and honed my skills as an Android developer.
                         </p>
-                        <p>         
+                        <p>
                             After graduation, I started working at MapQuest in Denver as an API Integration Support Engineer.  While I am thankful and content in my current employment role, I want to fully prepare myself for the next step in my career.  I try to stay current on emerging web technologies and it's impossible to deny the importance of server-side JS and front-end frameworks like React.  It was my gap in knowledge and my endless desire to know more that fueled my desire to sign up for the Coding Bootcamp at the University of Denver.  I am ecstatic to absorb as much as I can from this course and I look forward to the potential it will provide in my career.
                         </p>
                     </div>
@@ -72,8 +104,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script src="assets/js/main.js"></script>
     </footer>
-    <nav class="navbar fixed-bottom navbar-light bg-light text-center">
-        <a class="mx-auto" href="#">Copyright &copy; <span id="year"></span><br>Schuyler Ankele</a>
+    <nav class="navbar fixed-bottom text-center">
+        <a id="name-sake" class="mx-auto" href="#">Built By Schuyler Ankele<br><span id="year"></span></a>
         
     </nav>
 </body>
